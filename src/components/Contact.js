@@ -58,6 +58,43 @@ export default class Contact extends Component {
     return (
       <React.Fragment>
         <header id="contact">
+          <nav id="nav-wrap">
+            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+              Show navigation
+            </a>
+            <a className="mobile-btn" href="home" title="Hide navigation">
+              Hide navigation
+            </a>
+
+            <ul id="nav">
+              <li className="current">
+                <a className="smoothscroll nav" href="#home">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a className="smoothscroll nav" href="#about">
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://docs.google.com/document/d/1TvjS81ql5Stz4TteQRrjqU8SokUsTudhxbDcsfdtUTM/edit"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  className="nav"
+                >
+                  Resume
+                </a>
+              </li>
+
+              <li>
+                <a className="smoothscroll nav" href="#contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
           <div className="row banner">
             <div className="banner-text">
               <h1 className="responsive-headline title">{this.props.title}</h1>
