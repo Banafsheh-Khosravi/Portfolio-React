@@ -105,7 +105,7 @@ export default class About extends Component {
                 My experience is in Ruby on Rails, Postgress, JavaScript,
                 Bootstrap and React. I love creating things. <br />I have
                 recieved my Master degree in Computer Science from The
-                University of New Mexico,USA.
+                University of New Mexico, USA.
               </p>
 
               <hr />
