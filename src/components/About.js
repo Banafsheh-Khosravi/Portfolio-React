@@ -100,9 +100,9 @@ export default class About extends Component {
               <h1 className="responsive-headline title">{this.props.title}</h1>
               <p className="wow fadeInRightBig title">
                 Hello, my name is Bani.
-                <br /> I am a software developer based in Ann Arbor, MI. <br />I
+                <br /> I am a software developer based in Boston, MA. <br />I
                 have over 2 years of experience as a software developer. <br />
-                My experience is in Ruby on Rails, Postgress, JavaScript,
+                My experience is in Ruby on Rails, java, Selenium, WordPress Postgress, JavaScript,
                 Bootstrap and React. I love creating things. <br />I have
                 recieved my Master degree in Computer Science from The
                 University of New Mexico, USA.
